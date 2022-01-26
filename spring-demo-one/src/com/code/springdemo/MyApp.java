@@ -6,8 +6,9 @@ public class MyApp {
 		// TODO Auto-generated method stub
        
 		//create the object
-		BaseballCoach theCoach=new BaseballCoach();
+		Coach theCoach=new TrackCoach();
 		//use the object
+		//theCoach is just a generic interface
 		System.out.println(theCoach.getDailyWorkout());
 	}
 
